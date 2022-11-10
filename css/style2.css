@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabeca-menu{
+    display: flex;
+    color: #fff2E7;
+    font-family: 'Sarala', sans-serif;
+    gap: 40px;
+    font-size: 15px;
+}
+
+.conteudo{
+    border-top: 0.4px solid  black;
+    margin-bottom: 48px;
+}
+
+.container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.4px solid  black;
+    margin-bottom: 48px;
+    
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #fff2E7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box h2{
+    text-transform: uppercase;
+    color: #fff2E7;
+}
+
+.rodape{
+    padding: 32px;
+    color: #fff2E7;
+    border-top: 0.4px solid black ;
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-criador{
+
+    font-family:'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ECD6C4;
+}
+
+.info-comunidade{
+    font-family:'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ECD6C4;
+}
+
+.botão-entrada{
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.botão-retornos{
+color: #fff2E7;
+}
+
+
+
+
+.botão-retorno:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
